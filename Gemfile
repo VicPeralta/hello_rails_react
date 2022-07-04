@@ -33,6 +33,9 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 # React-rails
 gem 'react-rails'
 
+# Webpacker
+gem 'webpacker'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
