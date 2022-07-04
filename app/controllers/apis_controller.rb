@@ -5,7 +5,7 @@ class ApisController < ApplicationController
     @greeting = greetings[index]
     respond_to do |format|
       format.html { render 'show' }
-      format.json { render json: greeting }
+      format.json { render json: @greeting }
     end
   end
 
